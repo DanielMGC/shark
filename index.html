@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ATAQUE DO CHEFE TUBARÃO</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Tiny5&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <audio id="audioShark">
+        <source
+          src="sound/Shark.m4a"
+          type="audio/mpeg"
+        />
+    </audio>
+    <audio id="audioBaby">
+        <source
+          src="sound/Baby.m4a"
+          type="audio/mpeg"
+        />
+    </audio>
+    <div class="div-text-area hidden">
+        BUAHAHAHA Eu sou o chefe dos tubarões maus, eu tenho o tesouro de vocês e nunca vou devolver!
+        E vocês nunca vão me derrotar porque o único jeito é usando a palavra secreta - opa, não devia ter dito isso...
+        Ah mas não tem problema porque vocês nunca vão descobrir mesmo! BUAHAHAHA
+    </div>
+    <div class="div-shark-area">
+        <div class="div-shark f0">
+        </div>
+        <div class="div-splash f0">
+        </div>
+    </div>
+    <div class="div-input-area">
+        <input type="text" id="txtPalavra" />
+        <input type="button" id="btnOk" value="Dizer" />
+    </div>
+    <div class="div-baby"></div>
+    <div class="div-text-baby hidden">
+        Hei amigos! Eu posso ajudar vocês a derrotar o tubarão mau! Sigam estas pistas e vocês vão encontrar o que vocês precisam pra descobrir a palavra secreta! Boa sorte, tchau!
+    </div>
+    <div class="div-text-dica d1 hidden">
+        <img src="images/mario.jpg" />
+    </div>
+    <div class="div-text-dica d2 hidden">
+        <img src="images/pikmin.jpg" />
+    </div>
+    <div class="div-text-dica d3 hidden">
+        <img src="images/snap.jpg" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

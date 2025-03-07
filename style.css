@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/water2.png');
+    background-repeat: repeat;
+}
+
+input{
+    height: 30px;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#txtPalavra {
+    font-size: 20px;
+}
+
+#btnOk {
+    background-color: midnightblue;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.div-text-area{
+    width: 460px;
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    background-color: white;
+    border: 2px #000 solid;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.div-text-baby{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    border: 2px #000 solid;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    font-size: 20px;
+    bottom: 140px;
+    left: 130px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.div-shark-area{
+    width: 192px;
+    height: 192px;
+    margin: auto;
+    margin-top: 10px;
+    position: relative;
+}
+
+.div-input-area{
+    width: 450px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.div-shark{
+    width: 192px;
+    height: 192px;
+    position: absolute;
+    top: 0px;
+}
+
+.div-splash{
+    width: 192px;
+    height: 192px;
+    position: absolute;
+    top: 0px;
+    background-image: url('images/splash.png');
+    background-repeat: no-repeat;
+}
+
+.div-shark{
+    width: 132px;
+    height: 132px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-image: url('images/shark.png');
+    background-repeat: no-repeat;
+}
+/*1573*/
+.div-shark.f0{
+    background-position: top 200px left 200px;
+}
+.div-shark.f1{
+    background-position: top 0px left 0px;
+}
+.div-shark.f2{
+    background-position: top 0px left -137px;
+}
+.div-shark.f3{
+    background-position: top -542px left -1573px;
+}
+.div-shark.f4{
+    background-position: top -923px left -8px;
+}
+.div-shark.f5{
+    background-position: top -923px left -8px;
+}
+.div-shark.f6{
+    background-position: top -923px left -166px;
+}
+.div-shark.f7{
+    background-position: top -923px left -331px;
+}
+.div-shark.f8{
+    background-position: top -923px left -476px;
+}
+.div-shark.f9{
+    background-position: top -923px left -621px;
+}
+.div-shark.f10{
+    background-position: top -923px left -766px;
+}
+.div-shark.f11{
+    background-position: top 200px left 200px;
+}
+
+.div-splash.f0{
+    background-position: top 192px left 192px;
+}
+.div-splash.f1{
+    background-position: top -398px left -192px;
+}
+.div-splash.f2{
+    background-position: top -384px left -384px;
+}
+.div-splash.f3{
+    background-position: top -384px left -576px;
+}
+.div-splash.f4{
+    background-position: top -384px left -768px;
+}
+.div-splash.f5{
+    background-position: top -576px left 0px;
+}
+.div-splash.f6{
+    background-position: top -576px left -192px;
+}
+.div-splash.f7{
+    background-position: top -576px left -384px;
+}
+.div-splash.f8{
+    background-position: top -576px left -576px;
+}
+.div-splash.f9{
+    background-position: top -576px left -768px;
+}
+.div-splash.f10{
+    background-position: top -768px left 0px;
+}
+.div-splash.f11{
+    background-position: top 192px left 192px;
+}
+
+.div-baby{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 126px;
+    height: 110px;
+    background-image: url('images/baby.png');
+    background-repeat: no-repeat;
+    background-position: top 115px left 0px;
+}
+
+.div-text-dica{
+    width: 83px;
+    height: 115px;
+    position: absolute;
+    background-color: white;
+    border: 2px #000 solid;
+    padding: 5px;
+    padding-left: 10px;
+    bottom: 5px;
+    
+}
+
+.div-text-dica img{
+    width: 73px;
+}
+
+.d1{
+    left: 130px;
+}
+
+.d2{
+    left: 235px;
+}
+
+.d3{
+    left: 342px;
+}
