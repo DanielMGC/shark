@@ -24,8 +24,8 @@ input{
 }
 
 .div-text-area{
-    width: 460px;
-    height: 100px;
+    width: 420px;
+    height: 110px;
     margin: auto;
     margin-top: 20px;
     position: relative;
@@ -35,11 +35,12 @@ input{
     font-weight: 400;
     font-style: normal;
     padding: 5px;
-    font-size: 20px;
+    font-size: 19px;
+    user-select: none;
 }
 
 .div-text-baby{
-    width: 300px;
+    width: 354px;
     height: 100px;
     position: absolute;
     background-color: white;
@@ -49,8 +50,9 @@ input{
     font-style: normal;
     padding: 5px;
     font-size: 20px;
-    bottom: 140px;
-    left: 130px;
+    bottom: 130px;
+    left: 10px;
+    user-select: none;
 }
 
 .hidden{
@@ -87,6 +89,11 @@ input{
     top: 0px;
     background-image: url('images/splash.png');
     background-repeat: no-repeat;
+    user-select: none;
+}
+
+.display-none{
+    display: none;
 }
 
 .div-shark{
@@ -97,8 +104,22 @@ input{
     left: 30px;
     background-image: url('images/shark.png');
     background-repeat: no-repeat;
+    user-select: none;
 }
-/*1573*/
+
+.div-answer{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 39px;
+    left: 39px;
+    background-image: url('images/gato.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    user-select: none;
+}
+
 .div-shark.f0{
     background-position: top 200px left 200px;
 }
@@ -185,19 +206,18 @@ input{
 }
 
 .div-text-dica{
-    width: 83px;
-    height: 115px;
+    width: 63px;
+    height: 105px;
     position: absolute;
     background-color: white;
     border: 2px #000 solid;
     padding: 5px;
-    padding-left: 10px;
     bottom: 5px;
     
 }
 
 .div-text-dica img{
-    width: 73px;
+    width: 65px;
 }
 
 .d1{
@@ -205,9 +225,9 @@ input{
 }
 
 .d2{
-    left: 235px;
+    left: 215px;
 }
 
 .d3{
-    left: 342px;
+    left: 302px;
 }

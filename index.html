@@ -16,8 +16,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jersey+20&family=Tiny5&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="O ataque do tubarão" />
+    <meta property="og:description" content="O ataque do tubarão" />
+    <meta property="og:image" content="https://raw.githubusercontent.com/DanielMGC/shark/refs/heads/main/images/sharkicon.png" />
+
   </head>
   <body>
+    <div class="display-none">
+        <img src="images/sharkicon.png" />
+    </div>
     <audio id="audioShark">
         <source
           src="sound/Shark.m4a"
@@ -30,18 +38,33 @@
           type="audio/mpeg"
         />
     </audio>
+    <audio id="audioHahaha">
+      <source
+        src="sound/Hahaha.m4a"
+        type="audio/mpeg"
+      />
+    </audio>
+    <audio id="audioFinal">
+      <source
+        src="sound/Final.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+
     <div class="div-text-area hidden">
         BUAHAHAHA Eu sou o chefe dos tubarões maus, eu tenho o tesouro de vocês e nunca vou devolver!
         E vocês nunca vão me derrotar porque o único jeito é usando a palavra secreta - opa, não devia ter dito isso...
         Ah mas não tem problema porque vocês nunca vão descobrir mesmo! BUAHAHAHA
     </div>
     <div class="div-shark-area">
+        <div class="div-answer display-none">
+        </div>
         <div class="div-shark f0">
         </div>
         <div class="div-splash f0">
         </div>
     </div>
-    <div class="div-input-area">
+    <div class="div-input-area hidden">
         <input type="text" id="txtPalavra" />
         <input type="button" id="btnOk" value="Dizer" />
     </div>
